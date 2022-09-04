@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+.btn-brand{
+    background-image: linear-gradient( 75deg, #19D3Ae,#0fcfec);
+    border-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .text-brand{
+    color: #1cc7c1;
+  }

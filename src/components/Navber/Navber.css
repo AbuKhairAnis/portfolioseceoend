@@ -1,0 +1,14 @@
+.color{
+    color: orangered !important;
+}
+.anis1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}

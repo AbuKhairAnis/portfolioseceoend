@@ -1,0 +1,50 @@
+.resume-details{
+    height: 600px;
+    padding: 0 0 0 80px;
+}
+
+.resume-main-heading {
+    position: relative;
+}
+
+.heading-bulb {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: orangered;
+    left: -30px;
+    top: 4px;
+
+}
+
+.heading-date{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.resume-main-heading h6{
+    font-size: 18px;
+    color: orangered;
+    font-weight: 500;
+}
+.resume-sub-heading p{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.skill{
+    height: 15px;
+    width: 240px;
+    
+}
+
+.pogramin-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}

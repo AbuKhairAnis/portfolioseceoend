@@ -1,0 +1,13 @@
+.header-container{
+    /* background-image: url(../../images/Bg-E.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover; */
+    min-height: 670px;
+    background-color: rgb(235, 248, 248);
+    
+    
+}
+.shape-bg{
+    width: 100%;
+    
+}

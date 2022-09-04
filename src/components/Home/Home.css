@@ -1,0 +1,189 @@
+.parent-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.piture-container {
+    margin-left: 100px;
+}
+
+
+.piture-container img {
+    border: transparent;
+    border-radius: 50%;
+
+}
+
+.piture-container :hover {
+    transform: scale(1.12);
+    transition: .5s ease-out;
+    transition-delay: .05;
+
+}
+
+.piture-container {
+    box-shadow: 0px 3px 0px .06px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+.icon-container a {
+    font-size: 24px;
+    align-items: center;
+    margin: 2px;
+}
+
+.text-deatils-name {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.text-deatils-row {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+
+.heilight-text {
+    color: orangered;
+}
+
+.profile-tagline {
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    color: #fff;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.btn-style-block {
+    margin: 10px 0px;
+    padding: 10px 30px;
+}
+.icon{
+    color: white;
+    font-size: 44px;
+}
+.icon_text{
+    font-size: 20px;
+}
+.react{
+    color:#5CCFEE ;
+}
+.node{
+    color:#71AB5A ;
+}
+.html{
+    color: #F25400 ;
+}
+.css{
+    color:#146EB0 ;
+}
+.js{
+    color:#EFCE15 ;
+}
+.mongodb{
+    color:#419341 ;
+}
+.express{
+    color: #5D5D5D ;
+}
+.firebase{
+    color:#F2C12B ;
+}
+.bootsrap{
+    color: #6E10EA;
+}
+.tailwind{
+    color:#6E10EA ;
+}
+.meterial{
+    color:#007BF7 ;
+}
+.wordpress{
+    color:#207196 ;
+}
+
+
+
+@media (max-width: 768px) {
+    .parent-container{
+        display: block ;
+
+    }
+    .piture-container{
+        display: inline-block;
+    }
+    .piture-container {
+        margin: 16px;
+       
+        
+    }
+    
+    .hero-img{
+        width: 200px;
+        height: 200px;
+    }
+    .details-container{
+        max-width: 100%;
+        height: 100%;
+    }
+    .btn {
+        margin: 10px;
+    }
+    .text-deatils-row {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    .parent-container{
+        display: block ;
+
+    }
+    .piture-container{
+        display: inline-block;
+    }
+    .piture-container {
+        margin: 20px;
+        
+        
+    }
+    
+    .hero-img{
+        width: 350px;
+        height: 350px;
+    }
+    .details-container{
+        max-width: 100%;
+        height: 70%;
+    }
+    .btn {
+        margin: 10px;
+    }
+    .text-deatils-row {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+        
+    }
+}
