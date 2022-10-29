@@ -3,12 +3,13 @@ import Card from '../Card/Card';
 import './Testimonial.css';
 import pic from '../../../../images/shape-bg.png';
 import data from './Testimonial-api';
-import Carousel from 'react-bootstrap/Carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+
 const Testimonial = () => {
+
 
 
     var settings = {
@@ -17,7 +18,7 @@ const Testimonial = () => {
         speed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false,
+         arrows: false,
         autoplay: true,
         initialSlide: 1,
         lazyLoad: true,
@@ -51,7 +52,7 @@ const Testimonial = () => {
                 </div>
             </section>
             <section className='testimonial-container'>
-                <div className='container'>
+                <div className='container gap-2'>
                     <Slider {...settings}>
                         {
                             data.map((value, index) => <Card data={value} key={index}></Card>)

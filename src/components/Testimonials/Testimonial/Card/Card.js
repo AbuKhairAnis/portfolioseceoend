@@ -2,7 +2,7 @@ import React from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import { FcRating, } from 'react-icons/fc';
 import './Card.css'
-import Carousel from 'react-bootstrap/Carousel';
+
 
 
 
@@ -15,8 +15,8 @@ const Card = (props) => {
     return (
         <div>
             <div className="d-flex  ">
-                <div className="row ">
-                    <div className="col-md-4  ">
+                <div className="row flex-md-row flex-sm-col ">
+                    <div className="">
                         <div className="testimonial ms-5 mb-5 p-5 ">
                             <p className='my-3'> <FaQuoteLeft /> {desc}<FaQuoteRight /> </p>
                             <p><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /> </p>

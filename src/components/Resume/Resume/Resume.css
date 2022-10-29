@@ -4,17 +4,17 @@
     display: flex;
     max-height: 360px;
 }
-.resume-component{
+/* .resume-component{
     border-left: 2px solid darkgray;
     max-height: 360px;
     overflow: hidden;
     
-}
-.main-container{
+} */
+/* .main-container{
     height: 360px;
     width: 1000px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-}
+} */

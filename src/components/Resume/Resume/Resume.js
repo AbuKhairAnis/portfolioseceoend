@@ -23,8 +23,6 @@ const Resume = () => {
                         <div className="saparator-line">
                         </div>
                         <div className='saparator-bulb'>
-                            <div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,12 +31,12 @@ const Resume = () => {
             <div className='container'>
                 <div className='mt-5'>
                     <div className="d-flex">
-                           <div className="col-md-4 p-0">
-                                <div className='resume-navber mx-5'>
+                           <div className="col-md-4  p-0">
+                                <div className='resume-navber mt-3'>
                                     <ResumeNav setElement={setElement}></ResumeNav>
                                 </div>
                             </div>
-                            <div className="col-md-8 p-0">
+                            <div className="col-md-8  p-0">
                                 <div className='resume-component'>
                                     <ResumeDetails element ={element}></ResumeDetails>
                                 </div>

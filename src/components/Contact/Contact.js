@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import { React, } from 'react';
 import './Contact.css'
 import contact from '../../images/contact1.png'
 import { useForm } from 'react-hook-form';
@@ -7,13 +7,11 @@ import { FaFacebookSquare, FaFacebookMessenger, FaYoutube, FaInstagram, FaTwitte
 
 
 const Contact = () => {
-
-    const [information, setInformation] = useState({});
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit} = useForm();
 
     const onSubmit = data => {
-        alert("Message Sent Succesfully")
-        setInformation(data)
+        alert("Sorry This Website does't connect to server")
+        
 
     }
 
@@ -57,11 +55,11 @@ const Contact = () => {
                                 <span>Phone: +8801937925006, <br /> +8801684741665</span>
                             </div>
                             <div className='icon-container'>
-                                <a href="https://www.facebook.com/abukhair.anis.5" target="_blank"><FaFacebookSquare /></a>
+                                <a href="https://www.facebook.com/abukhair.anis.5" target="_blank" rel="noreferrer"><FaFacebookSquare /></a>
                                 <a href="https://m.me/abukhair.anis.5"  ><FaFacebookMessenger /></a>
-                                <a href="https://www.youtube.com/channel/UC2trE4xqJOkZCYeETtZdBlA" target="_blank"><FaYoutube /></a>
-                                <a href="https://www.instagram.com/abukhairanis/?hl=en" target="_blank" ><FaInstagram /></a>
-                                <a href="https://twitter.com/AbuKhairAnis" target="_blank"><FaTwitter /></a>
+                                <a href="https://www.youtube.com/channel/UC2trE4xqJOkZCYeETtZdBlA" target="_blank" rel="noreferrer"><FaYoutube /></a>
+                                <a href="https://www.instagram.com/abukhairanis/?hl=en" target="_blank" rel="noreferrer" ><FaInstagram /></a>
+                                <a href="https://twitter.com/AbuKhairAnis" target="_blank" rel="noreferrer"><FaTwitter /></a>
                             </div>
                         </div>
                     </div>
